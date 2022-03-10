@@ -26,4 +26,9 @@ public struct UIColor {
   public static let yellow: Self = .init(color: .yellow)
   public static let pink: Self = .init(color: .pink)
   public static let purple: Self = .init(color: .purple)
+  public static let brown: Self = .init(color: .brown)
+  public static let cyan: Self = .init(color: .cyan)
+  public static let indigo: Self = .init(color: .indigo)
+  public static let mint: Self = .init(color: .mint)
+  public static let teal: Self = .init(color: .teal)
 }

@@ -168,6 +168,11 @@ public final class _SystemColorBox: AnyColorBox, CustomStringConvertible {
     case yellow
     case pink
     case purple
+    case brown
+    case cyan
+    case indigo
+    case mint
+    case teal
     case primary
     case secondary
   }
@@ -207,6 +212,11 @@ public final class _SystemColorBox: AnyColorBox, CustomStringConvertible {
       case .yellow: return .init(red: 1, green: 0.8, blue: 0, opacity: 1, space: .sRGB)
       case .pink: return .init(red: 1, green: 0.17, blue: 0.33, opacity: 1, space: .sRGB)
       case .purple: return .init(red: 0.69, green: 0.32, blue: 0.87, opacity: 1, space: .sRGB)
+      case .brown: return .init(red: 0.63, green: 0.52, blue: 0.37, opacity: 1, space: .sRGB)
+      case .cyan: return .init(red: 0.2, green: 0.67, blue: 0.9, opacity: 1, space: .sRGB)
+      case .mint: return .init(red: 0, green: 0.78, blue: 0.74, opacity: 1, space: .sRGB)
+      case .indigo: return .init(red: 0.34, green: 0.34, blue: 0.84, opacity: 1, space: .sRGB)
+      case .teal: return .init(red: 0.19, green: 0.7, blue: 0.78, opacity: 1, space: .sRGB)
       case .primary: return .init(red: 0, green: 0, blue: 0, opacity: 1, space: .sRGB)
       case .secondary: return .init(red: 0.55, green: 0.55, blue: 0.57, opacity: 1, space: .sRGB)
       }
@@ -223,6 +233,11 @@ public final class _SystemColorBox: AnyColorBox, CustomStringConvertible {
       case .yellow: return .init(red: 1, green: 0.84, blue: 0.04, opacity: 1, space: .sRGB)
       case .pink: return .init(red: 1, green: 0.22, blue: 0.37, opacity: 1, space: .sRGB)
       case .purple: return .init(red: 0.75, green: 0.35, blue: 0.95, opacity: 1, space: .sRGB)
+      case .brown: return .init(red: 0.67, green: 0.55, blue: 0.4, opacity: 1, space: .sRGB)
+      case .cyan: return .init(red: 0.4, green: 0.82, blue: 1, opacity: 1, space: .sRGB)
+      case .mint: return .init(red: 0.39, green: 0.9, blue: 0.89, opacity: 1, space: .sRGB)
+      case .indigo: return .init(red: 0.37, green: 0.36, blue: 0.9, opacity: 1, space: .sRGB)
+      case .teal: return .init(red: 0.25, green: 0.78, blue: 0.88, opacity: 1, space: .sRGB)
       case .primary: return .init(red: 1, green: 1, blue: 1, opacity: 1, space: .sRGB)
       case .secondary: return .init(red: 0.55, green: 0.55, blue: 0.57, opacity: 1, space: .sRGB)
       }

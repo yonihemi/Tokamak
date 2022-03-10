@@ -118,6 +118,11 @@ public extension Color {
   static let yellow: Self = .init(systemColor: .yellow)
   static let pink: Self = .init(systemColor: .pink)
   static let purple: Self = .init(systemColor: .purple)
+  static let brown: Self = .init(systemColor: .brown)
+  static let cyan: Self = .init(systemColor: .cyan)
+  static let mint: Self = .init(systemColor: .mint)
+  static let indigo: Self = .init(systemColor: .indigo)
+  static let teal: Self = .init(systemColor: .teal)
   static let primary: Self = .init(systemColor: .primary)
 
   static let secondary: Self = .init(systemColor: .secondary)
@@ -142,6 +147,11 @@ public extension ShapeStyle where Self == Color {
   static var yellow: Self { .yellow }
   static var pink: Self { .pink }
   static var purple: Self { .purple }
+  static var brown: Self { .brown }
+  static var cyan: Self { .cyan }
+  static var indigo: Self { .indigo }
+  static var mint: Self { .mint }
+  static var teal: Self { .teal }
 }
 
 extension Color: ExpressibleByIntegerLiteral {
